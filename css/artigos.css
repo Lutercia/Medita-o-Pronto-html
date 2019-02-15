@@ -1,0 +1,121 @@
+/* Alterações referente a artigos */
+
+/* Video 1 e descrição */
+.video1 p{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-left: 50px;
+}
+
+.video1 h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#kabat
+{
+    padding:20px;
+    border-radius: 20px;
+    border: 2px solid #dde4ea;
+    width: 400px;
+    height: 300px;
+    margin-left: 717px;
+    justify-items: center;
+    font-size: 20px;
+    margin-top: -350px
+}
+
+#kabat p{
+    line-height: 120% ;
+}
+
+/* Video 2 */
+
+.video2 p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-left: 50px;
+}
+
+.video2 h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Animação */
+
+.medita img{
+    width: 403px;
+    height: 266px;
+    margin-left: 731px;
+    margin-top: -331px;
+    margin-bottom: 73px;
+    float: left;
+    border-radius: 50%;
+    animation: medita 10s linear alternate infinite;
+
+}
+
+@keyframes medita {
+    to {
+      transform: rotate(10deg);
+    }
+  }
+
+
+  /* Responsividade */
+  
+  @media only screen and (max-width: 550px) {
+    .medita img {
+        width: 403px;
+        height: 266px;
+        margin-left: 29px;
+        margin-top: -5px;
+        margin-bottom: 73px;
+        float: left;
+        border-radius: 50%;
+        animation: medita 10s linear alternate infinite;
+    } 
+    #wrapper{
+        display: flex;
+    flex-direction: column;
+    }
+
+
+#kabat {
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #dde4ea;
+    width: 400px;
+    height: 300px;
+    margin-left: 12px;
+    justify-items: center;
+    font-size: 20px;
+    margin-top: 44px;
+}
+.video2 p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    margin-left: -9px;
+}
+
+  }
+
+
+

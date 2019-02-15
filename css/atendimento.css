@@ -1,0 +1,140 @@
+/* Alterações correspondentes ao atendimento tags(chamadas) auto explicativas */
+
+.atendimento{
+    display:flex;
+    justify-content: center;
+
+}
+
+
+#comofunciona {
+    border-color:#c1aef8 ;
+}
+#comofunciona
+{
+    position: relative;
+    padding: 32px;
+    border-radius: 20px;
+    border: 2px solid #dde4ea;
+    margin-top: 144px;
+    margin-bottom: 175px;
+    width: 271px;
+    margin-left: 70px;
+    justify-items: center;
+    font-size: 20px;
+}
+
+#horarios
+{
+    position: relative;
+    padding: 32px;
+    border-radius: 20px;
+    border: 2px solid #dde4ea;
+    margin-top: 144px;
+    margin-bottom: 175px;
+    width: 271px;
+    margin-left: 70px;
+    justify-items: center;
+    font-size: 20px;
+}
+
+#profissional
+{
+    position: relative;
+    padding: 32px;
+    border-radius: 20px;
+    border: 2px solid #dde4ea;
+    margin-top: 144px;
+    margin-bottom: 175px;
+    width: 271px;
+    margin-left: 70px;
+    justify-items: center;
+    font-size: 20px;
+}
+
+
+#comofunciona h2{
+position: absolute;
+top: -24px;
+left: -2px;
+height: 48px;
+padding-right: 16px;
+background: #fff;
+font-size: 24px;
+font-weight: 600;
+color: #404040;
+}
+
+#horarios h2{
+    position: absolute;
+    top: -24px;
+    left: -2px;
+    height: 48px;
+    padding-right: 16px;
+    background: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    color: #404040;
+    }
+
+#profissional h2{
+    position: absolute;
+    top: -24px;
+    left: -2px;
+    height: 48px;
+    padding-right: 16px;
+    background: #fff;
+    font-size: 24px;
+    font-weight: 600;
+    color: #404040;
+        }
+
+/* Responsividade */
+
+        @media only screen and (max-width: 550px) {
+            .atendimento {
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            } 
+
+            #comofunciona {
+                position: relative;
+                padding: 30px;
+                border-radius: 20px;
+                border: 2px solid #dde4ea;
+                margin-top: 26px;
+                width: 258px;
+                margin-left: 70px;
+                justify-items: center;
+                font-size: 19px;
+            }
+
+            #horarios {
+                position: relative;
+                padding: 32px;
+                border-radius: 20px;
+                border: 2px solid #dde4ea;
+                margin-top: -91px;
+                width: 271px;
+                margin-left: 70px;
+                justify-items: center;
+                font-size: 20px;
+            }
+
+            #profissional {
+                position: relative;
+                padding: 32px;
+                border-radius: 20px;
+                border: 2px solid #dde4ea;
+                margin-top: -82px;
+                width: 271px;
+                margin-left: 70px;
+                justify-items: center;
+                font-size: 20px;
+                margin-bottom: 44px;
+            }
+
+        }
+ 
+       

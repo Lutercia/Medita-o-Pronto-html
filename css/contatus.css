@@ -1,0 +1,205 @@
+/* Alterações correspondentes a contatos */
+
+/* Texto: Fale conosco */
+.content {
+    display:flex;
+    align-items: center;
+    width: 100%;
+    background-image: none;
+    height: auto;
+    overflow: hidden;
+    font-size: 30px;
+    text-align: center;
+    margin-top: -105px;
+}
+
+.flex{
+    margin-left: 100px;
+    margin-right: -67px;
+}
+
+
+ .content h2 {
+    font-family: "Myriad Pro";
+    margin: 80px 0 0 30px;
+    font-size: 30px;
+}
+
+.content div p {
+    margin: 10px 0 0 30px;
+    padding: 0 15px 0 0;
+    font-family: "Myriad Pro";
+    font-size: 20px;
+    line-height: 25px;
+    color: #7F7154;
+    text-align: justify;
+}
+
+.content ul.connect {
+    font-family: "Myriad Pro";
+    margin: 50px 0 0 30px;
+}
+.content ul.connect li {
+    width: 640px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.content ul li {
+    width: 300px;
+    padding: 0 10px;
+    margin: 0 0 20px 0;
+        margin-top: 0px;
+    float: left;
+    line-height: 25px;
+    height: auto;
+}
+.content ul li h2 {
+    font-family: "Myriad Pro";
+    font-size: 20px;
+    margin: 0;
+}
+.content ul li p {
+    font-family: "Myriad Pro";
+    font-size: 14px;
+    text-align: justify;
+    color: #7f7154;
+    margin: 0;
+}
+.content ul.connect li span {
+    display: block;
+}
+
+/* Redes sociais referente ao fale conosco */
+
+#sidebar {
+    display:flex;
+    justify-items: left;
+    float: left;
+    width: 300px;
+    background-image: none;
+    margin-top: 20px;
+    margin-left: 200px;
+}
+#sidebar .connect {
+    width: 300px;
+}
+#sidebar .connect h2 {
+    color: #c1aef8;
+    font-family: "Myriad Pro";
+    font-style: Italic;
+    margin: 80px 0 0 0;
+    padding: 0;
+    font-weight: normal;
+}
+#sidebar .connect ul{
+    margin: 0;
+    list-style-type: none;
+}
+#sidebar .connect ul li {
+    clear: both;
+    height: 70px;
+    background: url("../images/top-border-short.gif");
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-position: 10px bottom;
+}
+#sidebar .connect ul li a {
+    text-decoration: none;
+    display: block;
+    line-height: 60px;
+    color: #93898a;
+}
+#sidebar .connect ul li a.facebook {
+    background: url("../images/icons.gif");
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+    background-position: 0 -174px;
+    background-repeat: no-repeat;
+}
+#sidebar .connect ul li a.subscribe {
+    background: url("../images/icons.gif");
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+    background-position: 0 -428px;
+    background-repeat: no-repeat;
+}
+#sidebar .connect ul li a.twitter {
+    background: url("../images/icons.gif");
+        background-position-x: 0%;
+        background-position-y: 0%;
+        background-repeat: repeat;
+    background-repeat: no-repeat;
+    background-position: 0 -588px;
+}
+
+.content ul.connect li h2 {
+    border-style: solid;
+        border-top-style: solid;
+        border-right-style: solid;
+        border-left-style: solid;
+    border-color: #ccc;
+        border-top-color: rgb(204, 204, 204);
+        border-right-color: rgb(204, 204, 204);
+        border-left-color: rgb(204, 204, 204);
+    border-width: 1px;
+        border-top-width: 1px;
+        border-right-width: 1px;
+        border-left-width: 1px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+/* Formulário */
+
+.contact-form {
+    padding: 35px 20px 55px;
+    margin-top: 96px;
+    margin-top: -29px;
+    border-radius: 20px;
+    
+}
+.contact-form input[type=text], .contact-form input[type=email],.contact-form input[type=telefone], .contact-form textarea {
+    width: 50%;
+    padding: 12px 24px;
+    margin-bottom: 18px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    line-height: 1;
+}
+.contact-form span {
+    display: block;
+    margin-top: 16px;
+    text-align: center;
+}
+.contact-form input[type=submit] {
+    cursor: pointer;
+    width: 197px;
+    height: 34px;
+    border-radius: 11px;
+    border: 1px solid #e0e0e0;
+}
+
+.foto {
+    background-image: url(../images/pedras.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+ 
+  /* Responsividade */
+  
+  @media only screen and (max-width: 550px) {
+  .flex {
+    margin-left: 26px;
+    margin-right: 103px;
+    margin-bottom: 31px;
+    margin-top: 28px;
+}
+  }

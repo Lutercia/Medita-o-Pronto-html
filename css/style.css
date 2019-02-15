@@ -1,0 +1,482 @@
+/* Alterações gerais do site */
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+	
+    font-weight: 300;
+    font-size: 18px;
+
+}
+
+html {
+    font-family: "helvetica neue", sans-serif;
+}
+
+.nav {
+    border-bottom: 1px solid #EAEAEB;
+    text-align: right;
+    height: 102px;
+    line-height: 70px;
+}
+
+.menu {
+    margin: 14px 45px 0 0;
+}
+
+.menu a {
+    display: inline-block;
+    margin-left: 1px;
+    padding: 1em 1.5em;
+    letter-spacing: 0.10em;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    outline: 0;
+    color: #212121;
+    background: #ECECEC;
+}
+
+.menu a:hover {
+    background: #c1aef8;
+	color: #FFF;
+    font-weight: bold;
+
+}
+
+
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toggle {
+    display: none;
+}
+
+/* Cabeçalho e logomarca */
+
+.logotexto h1 a {
+    display: flex;
+    text-decoration: none;
+    color: black;
+    margin-left: 19px;
+    margin-top: -92px;
+}
+
+.foto img {
+    margin-top: -77px;
+    margin-left: 347px;
+    margin-bottom: 38px;
+}
+/* Foto Principal */
+
+.fotoPrincipal img {
+    width: 100%;
+    margin-top: -24px;
+}
+
+/* Frase abaixo da foto principal */
+#banner {
+    overflow: hidden;
+    width: 100%;
+
+    text-align: center;
+    color: #000;
+
+}
+
+.container {
+    margin: 0px auto;
+
+    background: #c1aef8;
+
+}
+
+p {
+    line-height: 180%;
+}
+
+/* Benefícios configuração */
+
+#featured-wrapper {
+    overflow: hidden;
+    padding: 5em 0em;
+    background: #FFF;
+    text-align: center;
+}
+
+#featured {
+    overflow: hidden;
+    margin: 0px auto;
+    width: 1200px;
+}
+
+.column1,
+.column2,
+.column3,
+.column4 {
+    width: 282px;
+}
+
+.column1,
+.column2 {
+    float: left;
+    margin-right: 24px;
+}
+
+.column3 {
+    float: left;
+}
+
+.column4 {
+    float: right;
+}
+
+#featured .title {
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+/* Frase Principal */
+
+#extra {
+    overflow: hidden;
+    margin: 5em auto 2em auto;
+    padding: 2em 0em 2em 0em;
+    background: #0000;
+}
+
+#extra h2 {
+    margin: 0em;
+    padding: 0em;
+    font-weight: 400;
+    font-size: 2.0em;
+    color: #000;
+}
+
+/* Rodapé */
+
+#Footer-Info {
+    background: #b8a3f5;
+    padding: 5em 0em;
+}
+
+#logo-Footer {
+    margin-left: 48px;
+}
+
+#logo-Footer img {
+
+    margin-left: 339px;
+    margin-top: -67px;
+    margin-bottom: 25px;
+}
+
+#logo-Footer a {
+    text-decoration: none;
+
+}
+
+#logo-Footer p {
+    width: 333px;
+    font-size: 17px;
+}
+
+#Links-Uteis {
+    margin-left: 541px;
+    float: left;
+    margin-top: -247px;
+}
+
+#Links-Uteis a {
+    text-decoration: none;
+
+}
+
+#Links-Uteis ul {
+    list-style: none;
+    column-count: 2;
+    column-gap: 26px;
+    margin-top: 25px;
+}
+
+#Links-Uteis ul li {
+    margin-bottom: 22px;
+    font-size: 17px;
+
+}
+
+#Links-Uteis ul li a:hover {
+    color: #FFF;
+    font-weight: bold;
+
+}
+
+#Contato {
+    margin-left: 1005px;
+    float: left;
+    
+    margin-top: -259px;
+
+}
+
+#Contato a {
+    text-decoration: none;
+
+}
+
+#Contato ul {
+    margin-top: 27px;
+    list-style: none;
+}
+
+#Contato ul li {
+    margin-bottom: 22px;
+    font-size: 17px;
+    margin-left: 37px;
+    width: 195px;
+
+}
+
+#Contato span {
+
+    float: left;
+    margin-top: -45px;
+}
+
+#redeSocial {
+    width: 500px;
+    margin-left: 113px;
+    margin-bottom: -74px;
+}
+
+#redeSocial ul {
+    padding: 12px 0 0;
+    margin: 0;
+    list-style: none;
+
+}
+
+#redeSocial ul li {
+    display: inline-flex;
+    justify-items: center;
+    padding: 12px 0 0;
+    margin: 0;
+    list-style: none;
+}
+
+#redeSocial ul li {
+    padding: 31px;
+}
+
+#redeSocial ul li a {
+    text-decoration: none;
+}
+
+#redeSocial ul li a:hover {
+    color: #FFF;
+    font-size: 20px;
+}
+ .menu a.current_page_item
+{
+	background: #c1aef8;
+	color: #FFF;
+    font-weight: bold;
+}
+
+
+#footer-wrapper {
+    overflow: hidden;
+    padding: 7em 0em;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#copyright {
+    overflow: hidden;
+    padding: 1em 0em;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+#copyright p {
+    letter-spacing: 0.20em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.80em;
+    color: #000;
+}
+
+#copyright a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+
+
+/* Responsividade  960px*/
+
+
+@media only screen and (max-width: 960px) {
+    .nav {
+        border-bottom: 1px solid #EAEAEB;
+        text-align: right;
+        height: 102px;
+        line-height: 70px;
+        margin-top: 63px;
+    }
+
+    .menu {
+        margin: 0 3px 0 0;
+    }
+
+    .menu a {
+        display: inline-block;
+        margin-left: 1px;
+        padding: 1em 1.5em;
+        letter-spacing: 0.10em;
+        text-decoration: none;
+        font-size: 1em;
+        text-transform: uppercase;
+        outline: 0;
+        color: #212121;
+        background: #ECECEC;
+    }
+
+  
+
+    label {
+        margin: 0 40px 0 0;
+        font-size: 26px;
+        line-height: 70px;
+        display: none;
+        width: 26px;
+        float: right;
+    }
+
+    #toggle {
+        display: none;
+    }
+
+    .logotexto h1 a {
+        display: flex;
+        text-decoration: none;
+        color: black;
+        margin-left: 15px;
+        margin-top: -174px;
+
+
+
+    }
+
+    .fotoPrincipal img {
+        width: 100%;
+
+        margin-top: 73px;
+    }
+
+    #featured {
+        overflow: hidden;
+        margin: 0px auto;
+        width: 612px;
+    }
+}
+
+
+
+
+/* Responsividade 550px */
+
+
+
+@media only screen and (max-width: 550px) {
+    .nav {
+        border-bottom: 1px solid #EAEAEB;
+        text-align: right;
+        height: 102px;
+        line-height: 70px;
+        margin-top: 65px;
+    }
+
+    label {
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+
+    }
+
+    #toggle:checked+.menu {
+        display: block;
+    }
+
+    .logotexto h1 a {
+        display: flex;
+        text-decoration: none;
+        color: black;
+        margin-left: 19px;
+        margin-top: -175px;
+    }
+
+    .fotoPrincipal img {
+        width: 100%;
+        margin-top: -6px;
+        float: right;
+        height: 323px;
+    }
+
+    #featured {
+        overflow: hidden;
+        margin: 0px auto;
+        width: 278px;
+    }
+
+    #Links-Uteis {
+        margin-left: 90px;
+        float: left;
+        margin-top: -12px;
+    }
+
+    #Footer-Info {
+        background: #b8a3f5;
+        padding: 5em 0em;
+        flex-direction: column;
+        display: flex;
+    }
+
+
+
+    #Contato {
+        margin-left: 110px;
+        margin-top: 16px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0px;
+    }
+
+
+    #redeSocial {
+        width: 73%;
+        margin-left: 113px;
+        margin-bottom: -74px;
+    }
+
+}
